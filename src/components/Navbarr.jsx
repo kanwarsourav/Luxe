@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react'
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import logo from "../assets/images/logo.svg"
 import '../App.css'
 
-export default function Navbar() {
-    return (
-        <>
-            <div className=" bg-[#FFFDF8] ">
+export default function Navbarr() {
+  return (
+    <>
+     <div className=" bg-[#FFFDF8] ">
                 <div className="max-w-7xl mx-auto px-4 md:px-12 flex  items-center justify-between py-4  ">
 
                     {/* Logo */}
@@ -46,7 +46,7 @@ export default function Navbar() {
                         </button>
                     </div>
                 </div>
-            </div>
-        </>
-    );
+            </div> 
+    </>
+  )
 }
