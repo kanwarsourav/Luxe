@@ -7,8 +7,6 @@ import Home from './components/Home';
 import Navbarr from './components/Navbarr';
 
 
-
-
 function App() {
 
 
