@@ -7,7 +7,7 @@ export default function Booking() {
             <div className="max-w-7xl mx-auto px-4 md:px-12  flex flex-wrap justify-between lg:flex-nowrap items-center gap-8">
 
                 {/* Image */}
-                <div className="flex  lg:w-[45%]">
+                <div className="flex justify-center items-center w-full lg:w-[45%]">
                     <img
                         src={booking}
                         alt="Home interior"
@@ -16,7 +16,7 @@ export default function Booking() {
                 </div>
 
                 {/* Content */}
-                <div className="flex flex-col lg:w-[48%]">
+                <div className="flex flex-col  lg:w-[48%]">
                     <h1 className="relative text-3xl md:text-[45px] lg:w-[80%]  font-extrabold heading mb-8">
                         Home Interiors Made Easy
                         <span className="absolute left-0 -bottom-1 w-14 h-1 bg-yellow-500 "></span>

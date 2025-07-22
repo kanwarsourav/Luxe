@@ -9,7 +9,7 @@ export default function Package() {
             <div>
                 <div className='max-w-7xl mx-auto px-4 md:px-12 py-10'>
                     <h2 className='heading font-extrabold text-[45px] text-center text-[#0F141A] pb-8'>Package Offers</h2>
-                    <div className='flex justify-between  flex-wrap lg:flex-nowrap'>
+                    <div className='flex justify-center lg:justify-between item-center gap-6 lg:gap-0 flex-wrap  lg:flex-nowrap'>
                         <div className='flex flex-col lg:w-[30%] gap-2 transform transition-transform duration-300 hover:scale-105 cursor-pointer'>
                             <div>
                                 <img src={twobhk} alt="" />

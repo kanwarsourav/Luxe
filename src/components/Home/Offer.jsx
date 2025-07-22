@@ -11,7 +11,7 @@ export default function Offer() {
             <div>
                 <div className='max-w-7xl mx-auto px-4 md:px-12 py-10'>
                     <h2 className='heading font-extrabold text-[45px] text-center text-[#0F141A] pb-8'>What We Offer</h2>
-                    <div className='flex justify-between  flex-wrap lg:flex-nowrap'>
+                    <div className='flex justify-center md:justify-between item-center flex-wrap gap-6 lg:gap-0 lg:flex-nowrap'>
                         <div className='flex flex-col lg:w-[23%] gap-2 transform transition-transform duration-300 hover:scale-105 cursor-pointer'>
                             <div>
                                 <img src={modular} alt="" />
