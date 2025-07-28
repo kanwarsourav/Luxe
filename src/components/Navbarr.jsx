@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import logo from '../assets/images/logo.svg';
 import arrow from '../assets/images/arrowdown.svg';
-import call from '../assets/images/call.svg';
 import menuIcon from '../assets/images/menu.svg';
 import closeIcon from '../assets/images/close.svg';
 import '../App.css';
