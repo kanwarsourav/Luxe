@@ -12,7 +12,7 @@ export default function Banner() {
 
           {/* Responsive Heading with typewriter */}
           <h1
-            className="relative text-[42px] sm:text-[42px] md:text-[48px] font-black px-6 text-[#0F141A] text-center leading-tight sm:leading-snug"
+            className="relative text-[42px] sm:text-[42px] md:text-[48px] heading font-black px-6 text-[#0F141A] text-center leading-tight sm:leading-snug"
             style={{
               minHeight: '3.4em', // Reserve vertical space for 2 lines
             }}
@@ -22,7 +22,7 @@ export default function Banner() {
 
             {/* Typewriter text absolutely positioned and responsive shift */}
             <span
-              className="absolute left-0 right-0 w-full text-center px-8"
+              className="absolute left-0 right-0 w-full text-center px-8 "
               style={{
                 top: '-0.4em', // Fine-tuned upward shift (~text height)
               }}
